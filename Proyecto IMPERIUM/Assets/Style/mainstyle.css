@@ -1,0 +1,218 @@
+
+.product img{
+    width: 150px;
+    margin-top: 10px;
+
+}
+
+.product h3{
+    font-size: 1.7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card{
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 500px;
+    background-color: rgb(83, 83, 83);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0.0.0.0.24);
+}
+.product button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fffffa;
+    min-width: 1200px;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #252932;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header .logo{
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 100px;
+    float: left;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+}
+
+header nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition:500ms ease ;
+    -o-transition:500ms ease ;
+    transition:500ms ease ;
+}
+
+header nav a:hover{
+    color: white;
+    background: #f56f3a;
+    border-radius: 50px;
+}
+main{
+    background: url(../Images/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.p1{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none; 
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+.button2{
+    border: none;
+    width: 24%;
+    color: white;
+    font-size: 15px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+body{
+    background: url(../Images/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+main img:hover{
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+
+.mainimage{
+    width: 450px;
+    margin-left: 20px;
+
+}
+
+.commentimage{
+    width: 100px;
+}
+
+aside{
+    width: 40%;
+    float: left;
+    align-items: center;
+}
+
+.submitcomment h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.submitcomment{
+align-items: center;
+}
+
+.productos a{
+    text-decoration: none;
+    font-weight: bold;
+}
